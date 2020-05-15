@@ -1,0 +1,8 @@
+[Settings]
+    ID = "osscda-www"
+
+[build]
+    base = "."
+    publish = "public"
+    command = "hugo -v"
+    environment = { HUGO_VERSION = "0.68.3" }
