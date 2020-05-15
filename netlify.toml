@@ -4,5 +4,5 @@
 [build]
     base = "."
     publish = "public"
-    command = "git submodule update --init --recursive && hugo -v"
+    command = "./netlify-deploy.sh"
     environment = { HUGO_VERSION = "0.68.3" }
