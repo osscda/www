@@ -4,5 +4,5 @@
 [build]
     base = "."
     publish = "public"
-    command = "hugo -v"
+    command = "git submodule update --init --recursive && hugo -v"
     environment = { HUGO_VERSION = "0.68.3" }
