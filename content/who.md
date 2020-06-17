@@ -2,4 +2,4 @@
 title: "Who we are"
 ---
 
-We're a group of cool people
+We are a group of passionate engineers inside of the cloud advocacy group at Microsoft.
